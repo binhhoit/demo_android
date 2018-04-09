@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MathActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ax^2 + Bx + C = 0"
+        android:textSize="21dp"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/activity_math_et_number_a"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Nhập A"/>
+
+    <EditText
+        android:id="@+id/activity_math_et_number_b"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Nhập B"/>
+
+    <EditText
+        android:id="@+id/activity_math_et_number_c"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Nhập C"/>
+
+    <Button
+        android:id="@+id/activity_math_btn_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp"
+        android:textAllCaps="false"
+        android:text="Kết quả"/>
+
+    <TextView
+        android:id="@+id/activity_math_tv_denta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Denta"
+        android:textSize="21dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/activity_math_tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:textSize="21dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
